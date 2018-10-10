@@ -1,0 +1,31 @@
+{
+  "name": "cpollo-docs",
+  "version": "0.0.1",
+  "description": "Cpollo smart contract docs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:docs:windows": "node ./node_modules/solidity-docgen/bin/solidity-docgen ../Ethereum/ ../Ethereum/contracts/ ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cpollo/cpollo-docs.git"
+  },
+  "keywords": [
+    "cpollo",
+    "smartcontracts",
+    "docs"
+  ],
+  "author": "João Campos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cpollo/cpollo-docs/issues"
+  },
+  "homepage": "https://github.com/Cpollo/cpollo-docs#readme",
+  "dependencies": {
+    "docusaurus-init": "^1.0.2"
+  },
+  "devDependencies": {
+    "solidity-docgen": "^0.1.0"
+  }
+}
