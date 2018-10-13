@@ -90,8 +90,8 @@
         "title": "DevTokenEscrowMock"
       },
       "get-started": {
-        "title": "Get Stated",
-        "sidebar_label": "Example Page"
+        "title": "Get Started",
+        "sidebar_label": "Get Started"
       },
       "learn-about-access-control-roles": {
         "title": "Cpollo Roles"
@@ -108,7 +108,7 @@
       "API": "API"
     },
     "categories": {
-      "ABOUT": "ABOUT",
+      "ABOUT CPOLLO": "ABOUT CPOLLO",
       "ESCROW": "ESCROW",
       "ACCESS / ROLES": "ACCESS / ROLES",
       "CROWDSALES": "CROWDSALES"

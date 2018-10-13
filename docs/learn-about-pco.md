@@ -20,4 +20,4 @@ There will be no hard or softcap so the money that’s raised by PCO can be used
 
 People will be able to buy the tokens for a price lower than the market value, this will push them to buy from the PCO and that’s positive for the team because they raise money to develop the project.
 
-You can check a PCO example contract: [PCO](crowdsale_VestedCrowdsale_VestedPostDeliveryCrowdsale.md)  
+You can check a PCO example contract: [PCO](crowdsale_VestedCrowdsale_VestedPostDeliveryCrowdsale)  
