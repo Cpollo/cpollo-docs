@@ -105,13 +105,13 @@ const Features = () => (
     {[
       {
         content: 'When Cpollo detects scam in funds, we freeze all the funds and we will start a investigation',
-        image: imgUrl('cpollo.svg'),
+        image: imgUrl('lock.png'),
         imageAlign: 'top',
         title: 'Killswitch Contracts',
       },
       {
-        content: 'A new type of crowdsale with vesting features.',
-        image: imgUrl('cpollo.svg'),
+        content: 'Parallel Coin offerings are a new type of crowdsale with vesting features. The price of tokens in a PCO is static for a determined amount of time with tokens purchased through vested smart contract crowd sale. The money raised with the PCO is via direct sells so the team does not need to sell tokens on the market to raise money.        ',
+        image: imgUrl('PCO.png'),
         imageAlign: 'top',
         title: 'Parallel Coin Offering',
       },
@@ -124,12 +124,14 @@ const FeatureCallout = () => (
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
     <h2>Feature Callout</h2>
-    <MarkdownBlock>Killswitch Contracts</MarkdownBlock>
-    <MarkdownBlock>Escrow Role Contracts</MarkdownBlock>
-    <MarkdownBlock>Scam Alert</MarkdownBlock>
-    <MarkdownBlock>Verified Team with KYC</MarkdownBlock>
-    <MarkdownBlock>Verified Human Resources with KYC</MarkdownBlock>
-    <MarkdownBlock>Tracking of all the funds using the power of Blockchain</MarkdownBlock>
+    <MarkdownBlock>
+      ### Killswitch Contracts, Escrow Role Contracts, Scam Alerts, 
+      Verified Team with KYC, 
+    </MarkdownBlock>
+    <MarkdownBlock>
+   ### Verified Human Resources with KYC,
+      Tracking of all the funds using the power of Blockchain
+      </MarkdownBlock>
   </div>
 );
 
@@ -151,7 +153,7 @@ const TryOut = () => (
     {[
       {
         content: 'You can check Cpollo platform',
-        image: imgUrl('cpollo-blockchain.svg'),
+        image: imgUrl('cpollo-blockchain.png'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -207,14 +209,32 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
+        </div>
+      </div>
+    );
+  }
+}
+
+/*class Index extends React.Component {
+  render() {
+    const language = this.props.language || '';
+
+    return (
+      <div>
+        <HomeSplash language={language} />
+        <div className="mainContainer">
+          <Features />
+          <FeatureCallout />
           <LearnHow />
-         /* <TryOut />*/
+          <TryOut />
           <Description />
           <Showcase language={language} />
         </div>
       </div>
     );
   }
-}
+}*/
+
+
 
 module.exports = Index;
