@@ -83,8 +83,15 @@ class HomeSplash extends React.Component {
           <PromoSection>
             <Button href={docUrl('get-started.html', language)}>Getting Started</Button>
             <Button href={docUrl('access_CpolloRole.html', language)}>Roles Contracts</Button>
-            <Button href={docUrl('escrow_BaseEscrow.html', language)}>Escrow Contracts</Button>
+           
           </PromoSection>
+          <PromoSection>
+            <Button href={docUrl('wallet_BaseWallet.html', language)}>Wallet Contracts</Button>
+            <Button href={docUrl('templates_BurnERC20Template.html', language)}>Template Contracts</Button>
+            <Button href={docUrl('token-crowdsale_TokenCrowdsale.html', language)}>Token Crowdsale Contracts</Button>
+            
+          </PromoSection>
+
         </div>
       </SplashContainer>
     );
@@ -125,7 +132,7 @@ const FeatureCallout = () => (
     style={{textAlign: 'center'}}>
     <h2>Feature Callout</h2>
     <MarkdownBlock>
-      ### Killswitch Contracts, Escrow Role Contracts, Scam Alerts, 
+      ### Killswitch Contracts, Wallet Role Contracts, Scam Alerts, Freeze Alerts,
       Verified Team with KYC, 
     </MarkdownBlock>
     <MarkdownBlock>

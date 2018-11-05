@@ -1,6 +1,6 @@
 ---
-id: learn-about-cpollo-escrow
-title: Cpollo Escrow Features
+id: learn-about-cpollo-token-crowdsales
+title: Cpollo Crowdsales Features
 ---
 
 Smart contracts that holds funds with a specific destination. 

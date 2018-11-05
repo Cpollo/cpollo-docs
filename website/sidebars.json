@@ -3,9 +3,67 @@
     "ABOUT CPOLLO": [
       "get-started",
       "learn-about-access-control-roles",
-      "learn-about-cpollo-escrow",
-      "learn-about-pco"
+      "learn-about-cpollo-wallet",
+      "learn-about-token-crowdsales",
+      "learn-about-token-templates",
+      "learn-about-pco",
+      "learn-about-token-aidrop"
     ]
   },
-  "docs-api": {}
+  "docs-api": { 
+    "TEMPLATES":[
+      "templates_BurnERC20Template",
+      "templates_BurnMintCapERC20Template",
+      "templates_BurnMintERC20Template",
+      "templates_DevTokenWalletTemplate",
+      "templates_PCOTemplate",
+      "templates_RefundTimedChangeCrowdsaleTemplate",
+      "templates_RefundTimedCrowdsaleTemplate",
+      "templates_RefundTimedTokenCrowdsaleTemplate",
+      "templates_TokenKYCAirdropTemplate"
+    ],
+    "WALLET": [
+       "wallet_BaseWallet",
+       "wallet_CpolloWallet",
+       "wallet_DevRoleWallet",
+       "wallet_MarketingTokenWallet",
+       "wallet_LimitedWallet",
+       "wallet_WalletManagerRole",
+       "wallet_EthWallet",
+       "wallet_TokenWallet"
+    ],
+    "ACCESS / ROLES": [
+      "access_CpolloRole",
+      "access_DevRole",
+      "access_ManagerRole",
+      "access_MarketingRole",
+      "access_LegalRole",
+      "access_ICpolloRoles",
+      "access_IDevRoles",
+      "access_IManagerRoles",
+      "access_IMarketingRoles",
+      "access_ILegalRoles"
+    ],
+    "CROWDSALES": [
+      "crowdsale_VestedPostDeliveryCrowdsale"
+    ],
+    "TOKEN CROWDSALES": [
+      "token-crowdsale_TokenCrowdsale",
+      "token-crowdsale_distribution_TokenFinalizableCrowdsale",
+      "token-crowdsale_distribution_TokenPostDeliveryCrowdsale",
+      "token-crowdsale_distribution_TokenRefundableCrowdsale",
+      "token-crowdsale_price_TokenDynamicPriceCrowdsale"
+    ],
+    "TOKEN ESCROW": [
+      "payment_escrow_TokenRefundEscrow",
+      "payment_escrow_TokenEscrow",
+      "payment_escrow_TokenConditionalEscrow"
+    ],
+    "AIDROPS": [
+      "airdrop_Airdrop",
+      "airdrop_distribution_MintTokenAirdrop",
+      "airdrop_distribution_TokenAirdrop",
+      "airdrop_validation_KYCAirdrop"
+    ]
+  }
 }

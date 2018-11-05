@@ -37,7 +37,7 @@ class Footer extends React.Component {
             <a href={this.docUrl('get-started.html', this.props.language)}>
               Getting Started 
             </a>
-            <a href={this.docUrl('learn-about-cpollo-escrow.html', this.props.language)}>
+            <a href={this.docUrl('learn-about-cpollo-wallet.html', this.props.language)}>
               Guides 
             </a>
             <a href={this.docUrl('access_CpolloRole.html', this.props.language)}>
@@ -46,8 +46,8 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+            <a href={this.pageUrl('partners.html', this.props.language)}>
+              Partners
             </a>
             <a
               href="http://stackoverflow.com/questions/tagged/"

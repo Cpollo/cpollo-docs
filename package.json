@@ -1,6 +1,6 @@
 {
   "name": "cpollo-docs",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Cpollo smart contract docs",
   "main": "index.js",
   "scripts": {

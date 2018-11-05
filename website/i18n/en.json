@@ -26,6 +26,9 @@
       "access_IMarketingRoles": {
         "title": "IMarketingRoles"
       },
+      "access_IUserRoles": {
+        "title": "IUserRoles"
+      },
       "access_LegalRole": {
         "title": "LegalRole"
       },
@@ -35,8 +38,41 @@
       "access_MarketingRole": {
         "title": "MarketingRole"
       },
-      "crowdsale_VestedCrowdsale_VestedPostDeliveryCrowdsale": {
+      "access_UserRole": {
+        "title": "UserRole"
+      },
+      "airdrop_Airdrop": {
+        "title": "Airdrop"
+      },
+      "airdrop_distribution_MintTokenAirdrop": {
+        "title": "MintTokenAirdrop"
+      },
+      "airdrop_distribution_TokenAirdrop": {
+        "title": "TokenAirdrop"
+      },
+      "airdrop_validation_KYCAirdrop": {
+        "title": "KYCAirdrop"
+      },
+      "crowdsale_distribution_FinalizableCrowdsale": {
+        "title": "FinalizableCrowdsale"
+      },
+      "crowdsale_distribution_PostDeliveryCrowdsale": {
+        "title": "PostDeliveryCrowdsale"
+      },
+      "crowdsale_distribution_RefundableCrowdsale": {
+        "title": "RefundableCrowdsale"
+      },
+      "crowdsale_validation_KYCCrowsale_KYCCrowdsale": {
+        "title": "KYCCrowdsale"
+      },
+      "crowdsale_validation_TimedCrowdsale": {
+        "title": "TimedCrowdsale"
+      },
+      "crowdsale_VestedPostDeliveryCrowdsale": {
         "title": "VestedPostDeliveryCrowdsale"
+      },
+      "es_openzeppelin-solidity_contracts_access_roles_MinterRole": {
+        "title": "MinterRole"
       },
       "es_openzeppelin-solidity_contracts_access_Roles": {
         "title": "Roles"
@@ -44,14 +80,53 @@
       "es_openzeppelin-solidity_contracts_crowdsale_Crowdsale": {
         "title": "Crowdsale"
       },
+      "es_openzeppelin-solidity_contracts_crowdsale_distribution_FinalizableCrowdsale": {
+        "title": "FinalizableCrowdsale"
+      },
+      "es_openzeppelin-solidity_contracts_crowdsale_distribution_PostDeliveryCrowdsale": {
+        "title": "PostDeliveryCrowdsale"
+      },
+      "es_openzeppelin-solidity_contracts_crowdsale_distribution_RefundableCrowdsale": {
+        "title": "RefundableCrowdsale"
+      },
+      "es_openzeppelin-solidity_contracts_crowdsale_validation_CappedCrowdsale": {
+        "title": "CappedCrowdsale"
+      },
       "es_openzeppelin-solidity_contracts_crowdsale_validation_TimedCrowdsale": {
         "title": "TimedCrowdsale"
       },
       "es_openzeppelin-solidity_contracts_math_SafeMath": {
         "title": "SafeMath"
       },
+      "es_openzeppelin-solidity_contracts_ownership_Ownable": {
+        "title": "Ownable"
+      },
+      "es_openzeppelin-solidity_contracts_ownership_Secondary": {
+        "title": "Secondary"
+      },
+      "es_openzeppelin-solidity_contracts_payment_ConditionalEscrow": {
+        "title": "ConditionalEscrow"
+      },
+      "es_openzeppelin-solidity_contracts_payment_Escrow": {
+        "title": "Escrow"
+      },
+      "es_openzeppelin-solidity_contracts_payment_RefundEscrow": {
+        "title": "RefundEscrow"
+      },
       "es_openzeppelin-solidity_contracts_token_ERC20_ERC20": {
         "title": "ERC20"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_ERC20Burnable": {
+        "title": "ERC20Burnable"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_ERC20Capped": {
+        "title": "ERC20Capped"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_ERC20Detailed": {
+        "title": "ERC20Detailed"
+      },
+      "es_openzeppelin-solidity_contracts_token_ERC20_ERC20Mintable": {
+        "title": "ERC20Mintable"
       },
       "es_openzeppelin-solidity_contracts_token_ERC20_IERC20": {
         "title": "IERC20"
@@ -59,35 +134,134 @@
       "es_openzeppelin-solidity_contracts_token_ERC20_SafeERC20": {
         "title": "SafeERC20"
       },
-      "escrow_BaseEscrow": {
-        "title": "BaseEscrow"
-      },
-      "escrow_CpolloEscrow": {
-        "title": "CpolloEscrow"
-      },
-      "escrow_DevRoleEscrow": {
-        "title": "DevRoleEscrow"
-      },
-      "escrow_EscrowManagerRole": {
-        "title": "EscrowManagerRole"
-      },
-      "escrow_EthEscrow": {
-        "title": "EthEscrow"
-      },
-      "escrow_LimitedEscrow": {
-        "title": "LimitedEscrow"
-      },
-      "escrow_MarketingTokenEscrow": {
-        "title": "MarketingTokenEscrow"
-      },
-      "escrow_TokenEscrow": {
-        "title": "TokenEscrow"
-      },
       "Migrations": {
         "title": "Migrations"
       },
-      "mocks_DevTokenEscrowMock": {
-        "title": "DevTokenEscrowMock"
+      "mocks_CpolloRoleMock": {
+        "title": "CpolloRoleMock"
+      },
+      "mocks_CpolloWalletMock": {
+        "title": "CpolloWalletMock"
+      },
+      "mocks_DevEthWalletMock": {
+        "title": "DevEthWalletMock"
+      },
+      "mocks_DevRoleMock": {
+        "title": "DevRoleMock"
+      },
+      "mocks_DevTokenWalletMock": {
+        "title": "DevTokenWalletMock"
+      },
+      "mocks_ERC20Mock": {
+        "title": "ERC20Mock"
+      },
+      "mocks_LegalRoleMock": {
+        "title": "LegalRoleMock"
+      },
+      "mocks_ManagerRoleMock": {
+        "title": "ManagerRoleMock"
+      },
+      "mocks_MarketingRoleMock": {
+        "title": "MarketingRoleMock"
+      },
+      "mocks_PCOMock": {
+        "title": "PCOMock"
+      },
+      "mocks_TimedChangeCrowdsaleMock_TimedChangeCrowdsaledMock": {
+        "title": "TimedChangeCrowdsaledMock"
+      },
+      "mocks_TokenWalletMock": {
+        "title": "TokenWalletMock"
+      },
+      "mocks_UserRoleMock": {
+        "title": "UserRoleMock"
+      },
+      "payment_escrow_TokenConditionalEscrow": {
+        "title": "TokenConditionalEscrow"
+      },
+      "payment_escrow_TokenEscrow": {
+        "title": "TokenEscrow"
+      },
+      "payment_escrow_TokenRefundEscrow": {
+        "title": "TokenRefundEscrow"
+      },
+      "templates_BurnERC20Template": {
+        "title": "BurnERC20Template"
+      },
+      "templates_BurnMintCapERC20Template": {
+        "title": "BurnMintCapERC20Template"
+      },
+      "templates_BurnMintERC20Template": {
+        "title": "BurnMintERC20Template"
+      },
+      "templates_Cpollo": {
+        "title": "Cpollo"
+      },
+      "templates_DevTokenWalletTemplate": {
+        "title": "DevTokenWalletTemplate"
+      },
+      "templates_PCOTemplate": {
+        "title": "PCOTemplate"
+      },
+      "templates_RefundTimedChangeCrowdsaleTemplate": {
+        "title": "RefundTimedChangeCrowdsaleTemplate"
+      },
+      "templates_RefundTimedCrowdsaleTemplate": {
+        "title": "RefundTimedCrowdsaleTemplate"
+      },
+      "templates_RefundTimedTokenCrowdsaleTemplate": {
+        "title": "RefundTimedTokenCrowdsaleTemplate"
+      },
+      "templates_TokenKYCAirdropTemplate": {
+        "title": "TokenKYCAirdropTemplate"
+      },
+      "token-crowdsale_distribution_TokenFinalizableCrowdsale": {
+        "title": "TokenFinalizableCrowdsale"
+      },
+      "token-crowdsale_distribution_TokenPostDeliveryCrowdsale": {
+        "title": "TokenPostDeliveryCrowdsale"
+      },
+      "token-crowdsale_distribution_TokenRefundableCrowdsale": {
+        "title": "TokenRefundableCrowdsale"
+      },
+      "token-crowdsale_price_TokenDynamicPriceCrowdsale": {
+        "title": "TokenDynamicPriceCrowdsale"
+      },
+      "token-crowdsale_TokenCrowdsale": {
+        "title": "TokenCrowdsale"
+      },
+      "token-crowdsale_validation_TokenCappedCrowdsale": {
+        "title": "TokenCappedCrowdsale"
+      },
+      "token-crowdsale_validation_TokenKYCCrowsale_TokenKYCCrowdsale": {
+        "title": "TokenKYCCrowdsale"
+      },
+      "token-crowdsale_validation_TokenTimedCrowdsale": {
+        "title": "TokenTimedCrowdsale"
+      },
+      "wallet_BaseWallet": {
+        "title": "BaseWallet"
+      },
+      "wallet_CpolloWallet": {
+        "title": "CpolloWallet"
+      },
+      "wallet_DevRoleWallet": {
+        "title": "DevRoleWallet"
+      },
+      "wallet_EthWallet": {
+        "title": "EthWallet"
+      },
+      "wallet_LimitedWallet": {
+        "title": "LimitedWallet"
+      },
+      "wallet_MarketingTokenWallet": {
+        "title": "MarketingTokenWallet"
+      },
+      "wallet_TokenWallet": {
+        "title": "TokenWallet"
+      },
+      "wallet_WalletManagerRole": {
+        "title": "WalletManagerRole"
       },
       "get-started": {
         "title": "Get Started",
@@ -96,22 +270,36 @@
       "learn-about-access-control-roles": {
         "title": "Cpollo Roles"
       },
-      "learn-about-cpollo-escrow": {
-        "title": "Cpollo Escrow Features"
+      "learn-about-token-aidrop": {
+        "title": "Cpollo Airdrops"
+      },
+      "learn-about-cpollo-wallet": {
+        "title": "Cpollo Wallet"
       },
       "learn-about-pco": {
         "title": "Parallel Coin Offering"
+      },
+      "learn-about-token-crowdsales": {
+        "title": "Cpollo Token Crowdsales"
+      },
+      "learn-about-token-templates": {
+        "title": "Cpollo ERC20 Token Templates"
       }
     },
     "links": {
       "Docs": "Docs",
-      "API": "API"
+      "API": "API",
+      "Partners": "Partners"
     },
     "categories": {
       "ABOUT CPOLLO": "ABOUT CPOLLO",
-      "ESCROW": "ESCROW",
+      "TEMPLATES": "TEMPLATES",
+      "WALLET": "WALLET",
       "ACCESS / ROLES": "ACCESS / ROLES",
-      "CROWDSALES": "CROWDSALES"
+      "CROWDSALES": "CROWDSALES",
+      "TOKEN CROWDSALES": "TOKEN CROWDSALES",
+      "TOKEN ESCROW": "TOKEN ESCROW",
+      "AIDROPS": "AIDROPS"
     }
   },
   "pages-strings": {

@@ -14,11 +14,47 @@ const users = [
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/cpollo.svg',
+    image: '/img/TeamMcafee.png',
     infoLink: 'https://cpollo.info',
     pinned: true,
   },
 ];
+
+const partners = [
+  {
+    caption: 'TEAM MCAFEE',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/cpollo-docs/img/TeamMcafee.png',
+    infoLink: 'https://team-mcafee.com/',
+    pinned: true,
+  },
+  {
+    caption: 'BLEUTRADE',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/cpollo-docs/img/BLEUTRADE.png',
+    infoLink: 'https://bleutrade.com',
+  },
+  {
+    caption: 'IDAX',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/cpollo-docs/img/IDAX.png',
+    infoLink: 'https://www.idax.mn/#/',
+  },
+  {
+    caption: 'BITKER',
+    // You will need to prepend the image path with your baseUrl
+    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
+    image: '/cpollo-docs/img/BITKER.png',
+    infoLink: 'https://www.bitker.com/',
+  },
+
+
+
+]
+
 
 const siteConfig = {
   title: 'Cpollo Docs', // Title for your website.
@@ -40,12 +76,14 @@ const siteConfig = {
   headerLinks: [
     {doc: 'get-started', label: 'Docs'},
     {doc: 'access_CpolloRole', label: 'API'},
-   // {page: 'help', label: 'Help'},
+    {page: 'partners', label: 'Partners'},
   //  {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
   users,
+
+  partners,
 
   /* path to images for header/footer */
   headerIcon: 'img/cpollo.svg',
